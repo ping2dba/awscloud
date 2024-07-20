@@ -49,7 +49,7 @@ The above command shows the VPC state in pending, to check the VPC state later, 
 aws ec2 describe-vpcs --vpc-ids <vpc-id>
 ```
 Sample output: 
-````
+```
 aws ec2 describe-vpcs --vpc-ids vpc-0258ffd84df5aa130
 
 {
