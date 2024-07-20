@@ -81,3 +81,10 @@ aws ec2 describe-vpcs --vpc-ids vpc-0258ffd84df5aa130
     ]
 }
 ```
+
+2. The below is the command to delete the VPC 
+
+```
+aws ec2 delete-vpc --vpc-id <vpc-id>
+```
+
