@@ -59,7 +59,7 @@ aws ec2 describe-vpcs --vpc-ids vpc-0258ffd84df5aa130
             "DhcpOptionsId": "dopt-0db3c6bf7d3d3d338",
             "State": "available",
             "VpcId": "vpc-0258ffd84df5aa130",
-            "OwnerId": "975050333528",
+            "OwnerId": "1234567812",
             "InstanceTenancy": "default",
             "CidrBlockAssociationSet": [
                 {
