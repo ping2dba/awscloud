@@ -1,4 +1,4 @@
-name: create vpc demo
+name: update vpc demo
 on:
   workflow_dispatch:
     inputs:
