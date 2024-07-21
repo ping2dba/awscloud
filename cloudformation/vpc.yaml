@@ -6,7 +6,7 @@ Description: >
 Resources:
   MyCfnVPC:
     Type: AWS::EC2::VPC
-    Prperties:
+    Properties:
       CidrBlock: "10.0.0.0/16"
       Tags: 
       - Key: Name
