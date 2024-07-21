@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  This template creates VPC in us-east-1 region
+  Author: Kalesha Shaik
+  Company: test
+Resources:
+  MyCfnVPC:
+    Type: AWS::EC2::VPC
+    CidrBlock: "10.0.0.0/16"
+    Tags: 
+    - Key: Name
+      Value: MyProdVPC
+    - Key: Env
+      Value: Prod
+    - Key: Department
+      Value: DevOps
