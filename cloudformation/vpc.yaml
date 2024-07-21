@@ -7,7 +7,7 @@ Resources:
   MyCfnVPC:
     Type: AWS::EC2::VPC
     Properties:
-      CidrBlock: "172.16.0.0/16"
+      CidrBlock: "172.17.0.0/16"
       Tags: 
       - Key: Name
         Value: MyStageVPC
